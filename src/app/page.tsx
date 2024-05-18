@@ -1,7 +1,8 @@
-import SimpleContainer from "@/components/container";
 import styles from "./page.module.css";
 import NavBar from "@/components/navBar/NavBar";
 import Init from "@/components/Init/Init";
+import About from "@/components/about/About";
+import { Skill } from "@/components/skill/Skill";
 
 export default function HomePage() {
   return (
@@ -9,11 +10,11 @@ export default function HomePage() {
       <div>
         <NavBar />
       </div>
-      <div style={{paddingTop: '200px'}}>
-        <Init/>
+      <div style={{ paddingTop: '200px' }}>
+        <Init />
       </div>
-          <p>About</p>
-          <p>Skills</p>
+      <About />
+      <Skill />
       <div style={{ height: '2000px' }}></div>
 
 

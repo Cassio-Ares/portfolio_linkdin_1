@@ -1,4 +1,9 @@
 import styled from '@emotion/styled'
-import ContainerStyle from '../container/Container'
 
-export const Container = styled(ContainerStyle)``
+
+export const Div = styled.div`
+ background: white;
+ margin: 20px;
+ color: #000;
+ padding: 90px
+`
