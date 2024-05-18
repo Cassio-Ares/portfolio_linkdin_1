@@ -7,10 +7,8 @@ import ListMUI from '@mui/material/List';
 import DividerMUI from '@mui/material/Divider';
 import ListItemMUI from '@mui/material/ListItem';
 import ListItemButtonMUI from '@mui/material/ListItemButton';
-import ListItemIconMUI from '@mui/material/ListItemIcon';
-import ListItemTextMUI from '@mui/material/ListItemText';
-import InboxIconMUI from '@mui/icons-material/MoveToInbox';
-import MailIconMUI from '@mui/icons-material/Mail';
+
+
 
 import ColorLensIconMUI from '@mui/icons-material/ColorLens';
 
@@ -21,6 +19,7 @@ export const Drawer= styled(DrawerMUI) ``
 export const Button = styled(ButtonMUI)`
  float: right;
  margin-right: 50px;
+ //To DO fixed
 `
 
 export const List = styled(ListMUI)`
@@ -32,14 +31,6 @@ export const Divider = styled(DividerMUI)``
 export const ListItem = styled(ListItemMUI)``
 
 export const ListItemButton = styled(ListItemButtonMUI)``
-
-export const ListItemIcon = styled(ListItemIconMUI)``
-
-export const ListItemText = styled(ListItemTextMUI)``
-
-export const InboxIcon = styled(InboxIconMUI)``
-
-export const MailIcon = styled(MailIconMUI)``
 
 export const ColorLensIcon = styled(ColorLensIconMUI)`
  color: aliceblue;
