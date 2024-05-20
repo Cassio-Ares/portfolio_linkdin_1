@@ -1,11 +1,10 @@
 'use client'
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaSass, FaBootstrap, FaGithub, FaFigma } from "react-icons/fa6";
 import { SiMysql, SiMongodb, SiTypescript } from "react-icons/si";
-import { Card, ContainerGrid, Div } from "./styled";
+import { Card, ContainerGrid} from "./styled";
 
 export const Skill = () => {
     return (
-
         <ContainerGrid>
             <Card>
                 <FaJs style={{ fontSize: '80px' }} />
