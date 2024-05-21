@@ -12,7 +12,7 @@ export const mockProj = [
     ],
     description:
       "Documentação de uma API de um ecommerce com parte administrativa com cadastro, login e areas especiais de acesso com autenticações via token, e area de cliente com cadastro de dados e organização de pedidos e formas de pagamento.",
-    imagem: "",
+    imagem: "public/api_biblio_mongo.svg",
     link_do_git: "https://github.com/Cassio-Ares/back_end_ecommerc.git",
     link_do_site: "",
   },

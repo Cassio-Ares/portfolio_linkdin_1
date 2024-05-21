@@ -1,11 +1,15 @@
+'use client'
+
 import Home from "@/view/Home";
-import styles from "./page.module.css";
+import { ThemeProvider } from "styled-components";
+import theme from "@/theme";
+import {mockProj} from '../mock/mock_project'
 
 
 export default function HomePage() {
   return (
-    <main className={styles.main}>
-      <Home/>
-    </main>
+    <ThemeProvider theme={theme}>
+      <Home  projects={mockProj}/>
+    </ThemeProvider>
   );
 }

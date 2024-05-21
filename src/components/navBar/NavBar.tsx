@@ -16,12 +16,22 @@ export default function NavBar() {
           setValue(newValue);
         }}
       >
-        <S.BottomNavigationAction label="Init" />
-        <S.BottomNavigationAction label="Sobre" />
-        <S.BottomNavigationAction label="Skills" />
-        <S.BottomNavigationAction label="Projetos" />
-        <S.BottomNavigationAction label="Contato" />
-         <NavStyle/>
+        <S.BottomNavigationAction
+          label="Init"
+          sx={{ '& .MuiBottomNavigationAction-label': { fontSize: '1.2rem' } }} />
+        <S.BottomNavigationAction
+          label="Sobre"
+          sx={{ '& .MuiBottomNavigationAction-label': { fontSize: '1.2rem' } }} />
+        <S.BottomNavigationAction
+          label="Skills"
+          sx={{ '& .MuiBottomNavigationAction-label': { fontSize: '1.2rem' } }} />
+        <S.BottomNavigationAction
+          label="Projetos"
+          sx={{ '& .MuiBottomNavigationAction-label': { fontSize: '1.2rem' } }} />
+        <S.BottomNavigationAction
+          label="Contato"
+          sx={{ '& .MuiBottomNavigationAction-label': { fontSize: '1.2rem' } }} />
+        <NavStyle />
       </S.BottomNavigation>
     </S.Box>
   );

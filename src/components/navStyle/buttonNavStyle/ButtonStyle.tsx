@@ -3,6 +3,6 @@ import { ButtonNavStyle } from "./style";
 
 export default function ButtonStyle(){
    return(
-   <ButtonNavStyle>Enviar</ButtonNavStyle> //To Do organizar detalhes 
+   <ButtonNavStyle>Trocar estilo da Página</ButtonNavStyle> //To Do organizar detalhes 
    )
 }

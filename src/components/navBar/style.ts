@@ -1,27 +1,22 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";  //ok
 
 import BoxMUI from "@mui/material/Box";
 import BottomNavigationMUI from "@mui/material/BottomNavigation";
 import BottomNavigationActionMUI from "@mui/material/BottomNavigationAction";
-import RestoreIconMUI from "@mui/icons-material/Restore";
-import FavoriteIconMUI from "@mui/icons-material/Favorite";
-import LocationOnIconMUI from "@mui/icons-material/LocationOn";
 
 export const Box = styled(BoxMUI)`
   position: fixed;
   width: 100%;
+  z-index: 2;
 `;
 
 export const BottomNavigation = styled(BottomNavigationMUI)`
   background-color: transparent;
+  
 `;
 
 export const BottomNavigationAction = styled(BottomNavigationActionMUI)`
-       color: #FFFFFF;
+  color: ${({theme})=> theme.COLORS.LIGHT}; 
+  font-weight: bold;
 `;
 
-export const RestoreIcon = styled(RestoreIconMUI)``;
-
-export const FavoriteIcon = styled(FavoriteIconMUI);
-
-export const LocationOnIcon = styled(LocationOnIconMUI)``;

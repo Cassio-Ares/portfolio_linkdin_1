@@ -1,4 +1,4 @@
-import styled from '@emotion/styled'
+import styled from "styled-components";  //ok
 
 
 export const ProjCard = styled.div``;

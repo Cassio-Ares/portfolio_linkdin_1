@@ -1,3 +1,3 @@
-import styled from '@emotion/styled';
+import styled from "styled-components";  //ok
 
 export const CardContact = styled.div``;
