@@ -31,7 +31,6 @@ export default function NavBar() {
         <S.BottomNavigationAction
           label="Contato"
           sx={{ '& .MuiBottomNavigationAction-label': { fontSize: '1.2rem' } }} />
-        <NavStyle />
       </S.BottomNavigation>
     </S.Box>
   );

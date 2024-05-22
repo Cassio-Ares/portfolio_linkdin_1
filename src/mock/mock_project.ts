@@ -12,7 +12,7 @@ export const mockProj = [
     ],
     description:
       "Documentação de uma API de um ecommerce com parte administrativa com cadastro, login e areas especiais de acesso com autenticações via token, e area de cliente com cadastro de dados e organização de pedidos e formas de pagamento.",
-    imagem: "public/api_biblio_mongo.svg",
+    imagem: "api_biblio_mongo.svg",
     link_do_git: "https://github.com/Cassio-Ares/back_end_ecommerc.git",
     link_do_site: "",
   },
@@ -22,7 +22,7 @@ export const mockProj = [
     name: "My Money App",
     technology: ["React Native", "TypeScript", "Axios", "Expo/Expo Go"],
     description: "Api de uma livraria projetada com ",
-    imagem: "",
+    imagem: "app_my_money.svg",
     link_do_git: "https://github.com/Cassio-Ares/app_my_money.git",
     link_do_site: "",
   },
@@ -33,7 +33,7 @@ export const mockProj = [
     technology: ["React", "Vite", "Sass", "Rotas (react-router-dom)"],
     description:
       "Este projeto é um E-commerce desenvolvido para praticar o uso do Vite e rotas. O design da página foi baseado no layout disponível no Figma (Para usar só clique em Entrar). ",
-    imagem: "",
+    imagem: "econ.svg",
     link_do_git: "https://github.com/Cassio-Ares/e-com_1.git",
     link_do_site: "https://e-com-1-cassioares-projects.vercel.app/",
   },
@@ -53,7 +53,7 @@ export const mockProj = [
     ],
     description:
       "A API não é minha só fiz a parte dos testes unitarios e testes de integração.",
-    imagem: "",
+    imagem: "test-2.svg",
     link_do_git: "https://github.com/Cassio-Ares/back_movelly_tests",
     link_do_site: "",
   },
@@ -64,7 +64,7 @@ export const mockProj = [
     technology: ["Node.js", "Express.js", "mySQL2"],
     description:
       "API de uma biblioteca onde você pode  cadastrar, buscar, listar, editar e deletar livros.",
-    imagem: "",
+    imagem: "api_biblio_sql.svg",
     link_do_git: "https://github.com/Cassio-Ares/back_biblioteca_com_SQL",
     link_do_site: "",
   },
@@ -75,7 +75,7 @@ export const mockProj = [
     technology: ["React", "vite", "Axios", "Javascript", "Css"],
     description:
       'Site que utiliza uma Api ("https://rickandmortyapi.com/api") para buscar as informações que aparecem nos cards.',
-    imagem: "",
+    imagem: "rick-and-mo.svg",
     link_do_git: "https://github.com/Cassio-Ares/LP_rick_and_morty",
     link_do_site: "https://lp-rick-and-morty.vercel.app/",
   },
@@ -85,7 +85,7 @@ export const mockProj = [
     name: "Site simples de cadastro de dados de cartão",
     technology: ["HTML", "CSS", "Javascript"],
     description: "Api de uma livraria projetada com ",
-    imagem: "",
+    imagem: "pagina_de_cartao.svg",
     link_do_git:
       "https://github.com/Cassio-Ares/lp_frontendmentor_practice_3.git",
     link_do_site: "https://lp-frontendmentor-practice-3.vercel.app/",
@@ -104,7 +104,7 @@ export const mockProj = [
     ],
     description:
       "Pagina que utiliza a api https://api.themoviedb.org/3/ para apresentar cartazes e permite buscas similar a um  streaming ao clicar no cartaz apresenta uma pagina nova com detalhes.(OBS: não é possivel abrir o filme.) ",
-    imagem: "",
+    imagem: "mov.svg",
     link_do_git:
       "https://github.com/Cassio-Ares/LP_pagina-_de_filmes_?tab=readme-ov-file",
     link_do_site: "https://lp-pagina-de-filmes.vercel.app/",
@@ -123,7 +123,7 @@ export const mockProj = [
     ],
     description:
       "Projeto onde tive que converter uma api feita em Javascript para Typescript e usar Orientação a objetos e após isso fiz os testes unitarios e de integração.",
-    imagem: "",
+    imagem: "testj.svg",
     link_do_git:
       "https://github.com/Cassio-Ares/api_cadastro_simples_de_alunos_tests",
     link_do_site: "",
@@ -142,7 +142,7 @@ export const mockProj = [
     ],
     description:
       "Documentação de uma API de uma biblioteca montada basicamente para administrar, onde você pode cadastrar usuário, fazer login, cadastrar, buscar, listar, editar e deletar livros.",
-    imagem: "",
+    imagem: "api_biblio_mongo.svg",
     link_do_git: "https://github.com/Cassio-Ares/library_Back-end.git",
     link_do_site: "https://library-back-end.vercel.app/doc/",
   },

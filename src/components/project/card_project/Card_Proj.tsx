@@ -1,17 +1,19 @@
 'use client'
 
-import { ImgCard, ProjCard } from "./style"
+import { Cont, ProjCard } from "./style"
 
-interface Props_Proj{
-    img_url: string,
-    alt_text: string
+interface Props_Proj {
+  img_url: string
 }
 
-export default function Card_Proj({img_url, alt_text}:Props_Proj) {
+export default function Card_Proj({ img_url }: Props_Proj) {
   return (
-    <ProjCard>
-        <ImgCard src={img_url} alt={alt_text}/>
-    </ProjCard>
+    <Cont>
+      <ProjCard style={{ backgroundImage: `url(${img_url})` }}>
+
+      </ProjCard>
+    </Cont>
+
   )
 }
 

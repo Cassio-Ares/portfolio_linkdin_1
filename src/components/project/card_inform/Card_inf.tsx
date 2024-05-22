@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import { CardInfo, Item, Link_Btn, Table } from './style'
+import { CardInfo, Item, Link_Btn, Table, Div_Btn } from './style'
 
 
 interface CardInfoProps{
@@ -23,8 +23,11 @@ export default function Card_inf({name, technology, description, link_do_git, li
         ))} 
       </Table>
       <p>{description}</p>
-      <Link_Btn href={link_do_git} target='_black'>Acesse o github do projeto</Link_Btn>
-      {link_do_site && <Link_Btn href={link_do_site} target='_black'>Acesse ao site</Link_Btn>}
+      <Div_Btn>
+        <Link_Btn href={link_do_git} target='_black'>Acesse o github do projeto</Link_Btn>
+        {link_do_site && <Link_Btn href={link_do_site} target='_black'>Acesse ao site</Link_Btn>}
+      </Div_Btn>
+      
     </CardInfo>
   )
 }

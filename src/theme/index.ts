@@ -22,6 +22,8 @@ export default {
     },
 
     BACKGROUND:{
-
+        CODE: './imag/backCode.jpg',
+        COLORBG: '#FFFFFF',
+        SPACE: '/imag/space.svg'
     }
 }
