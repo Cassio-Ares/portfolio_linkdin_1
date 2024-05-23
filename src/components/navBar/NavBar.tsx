@@ -2,10 +2,11 @@
 
 import { useState } from 'react';
 import * as S from './style';
-import NavStyle from '../navStyle/NavStyle';
 
 export default function NavBar() {
   const [value, setValue] = useState(0);
+
+// tentar com boostrap 
 
   return (
     <S.Box sx={{ width: 500 }}>

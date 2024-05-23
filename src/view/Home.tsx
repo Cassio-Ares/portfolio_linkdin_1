@@ -5,18 +5,28 @@ import About from "@/components/about/About";
 import Contact from "@/components/contact/Contact";
 import NavBar from "@/components/navBar/NavBar";
 import Projects from '@/components/project/proj/Projects';
-import { Skill } from "@/components/skill/Skill";
 import * as S from "./styled";
 import { useState } from "react";
 import * as React from 'react';
-import ButtonStyle from "@/components/buttonNavStyle/ButtonStyle";
+import ButtonNavStyle from "@/components/btnStyle/BtnStyle";
+import Skill from "@/components/skill/Skill";
 
 type Anchor = 'top';
+
+type TypeStyle ='style 1' | 'style 2' | 'style 3' | 'style 4';
 
 export default function Home({ projects }: any) {
   const [state, setState] = useState({
     top: true,
   });
+
+  const [selectedStyle, setSelectedStyle] = useState<TypeStyle>('style 3'); // Correct typing here
+
+  function handleStyle(type: TypeStyle) {
+    setSelectedStyle(type);
+  }
+
+  console.log(selectedStyle);
 
   const toggleDrawer =
     (anchor: Anchor, open: boolean) =>
@@ -39,16 +49,16 @@ export default function Home({ projects }: any) {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <S.List>
-         <ButtonStyle/>
-         <ButtonStyle/>
-         <ButtonStyle/>
-         <ButtonStyle/> 
+        <ButtonNavStyle onClick={() => handleStyle('style 1')} title='stylo 1' />
+        <ButtonNavStyle  onClick={() => handleStyle('style 2')} title='stylo 2' />
+        <ButtonNavStyle  onClick={() => handleStyle('style 3')} title='stylo 3' />
+        <ButtonNavStyle  onClick={() => handleStyle('style 4')} title='stylo 4' />
       </S.List>
     </S.Box>
   );
 
   return (
-    <S.HomeMain>
+    <S.HomeMain type={selectedStyle}> 
       <S.NavStyle>
         {(['top'] as const).map((anchor) => (
           <React.Fragment key={anchor}>
@@ -63,7 +73,6 @@ export default function Home({ projects }: any) {
           </React.Fragment>
         ))}
       </S.NavStyle>
-
 
 
 

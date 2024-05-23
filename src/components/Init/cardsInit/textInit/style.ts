@@ -1,14 +1,26 @@
 import styled from "styled-components"; //to do falta texto e ajuste final 
 
 export const Div = styled.div`
-  backdrop-filter: blur(5px); 
-  width: 45%;
+  width: 40%;
   height: 64vh;
   color: #000;
-  border-top-left-radius:10px;
-  border-bottom-left-radius:10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding:10px;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+`;
+
+
+export const Title = styled.h2`
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 75px;
+`;
+
+export const P = styled.p`
+  width: 90%;
+  margin-top: 30px;
+  text-align: justify;
+  line-height: 30px;
 `;

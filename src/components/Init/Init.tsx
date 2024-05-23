@@ -8,7 +8,7 @@ import TextInit from "./cardsInit/textInit/TextInit";
 
 export default function Init(){
   return (
-    <DivInt>
+    <DivInt id="init">
        <TextInit/>
        <ImgInit/>
     </DivInt>

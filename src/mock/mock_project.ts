@@ -147,34 +147,34 @@ export const mockProj = [
     link_do_site: "https://library-back-end.vercel.app/doc/",
   },
 
-  {
-    id: 11,
-    name: "Api de uma Livraria",
-    technology: [],
-    description: "Api de uma livraria projetada com ",
-    imagem: "",
-    link_do_git: "",
-    link_do_site: "",
-  },
+  // {
+  //   id: 11,
+  //   name: "Api de uma Livraria",
+  //   technology: [],
+  //   description: "Api de uma livraria projetada com ",
+  //   imagem: "",
+  //   link_do_git: "",
+  //   link_do_site: "",
+  // },
 
-  {
-    id: 12,
-    name: "Lp CCXP",
-    technology: ["HTML", "CSS", "JavaScript"],
-    description:
-      "Este projeto é uma Landing Page criada para a Comic Con Experience (CCXP) baseada em um figma, um dos maiores eventos de cultura pop do mundo. ",
-    imagem: "",
-    link_do_git: "https://github.com/Cassio-Ares/projeto-lp-ccxp_dnc.git",
-    link_do_site: "https://super-medovik-ad9686.netlify.app/",
-  },
+  // {
+  //   id: 12,
+  //   name: "Lp CCXP",
+  //   technology: ["HTML", "CSS", "JavaScript"],
+  //   description:
+  //     "Este projeto é uma Landing Page criada para a Comic Con Experience (CCXP) baseada em um figma, um dos maiores eventos de cultura pop do mundo. ",
+  //   imagem: "",
+  //   link_do_git: "https://github.com/Cassio-Ares/projeto-lp-ccxp_dnc.git",
+  //   link_do_site: "https://super-medovik-ad9686.netlify.app/",
+  // },
 
-  {
-    id: 13,
-    name: "Api de uma Livraria",
-    technology: [],
-    description: "Api de uma livraria projetada com ",
-    imagem: "",
-    link_do_git: "",
-    link_do_site: "",
-  },
+  // {
+  //   id: 13,
+  //   name: "Api de uma Livraria",
+  //   technology: [],
+  //   description: "Api de uma livraria projetada com ",
+  //   imagem: "",
+  //   link_do_git: "",
+  //   link_do_site: "",
+  // },
 ];

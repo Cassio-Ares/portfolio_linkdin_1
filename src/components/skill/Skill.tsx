@@ -2,10 +2,12 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaSass, FaBootstrap, FaGithub, FaFigma } from "react-icons/fa6";
 import { SiMysql, SiMongodb, SiTypescript } from "react-icons/si";
 import { Card, ContainerGrid} from "./styled";
+//import NavLink from "react-bootstrap/esm/NavLink";
 
-export const Skill = () => {
+
+export default function Skill(){
     return (
-        <ContainerGrid>
+        <ContainerGrid id="skill">
             <Card>
                 <FaJs style={{ fontSize: '80px' }} />
                 <p>JavaScript</p>

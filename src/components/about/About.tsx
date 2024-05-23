@@ -6,12 +6,13 @@ import { Div } from './style'
 export default function About() {
   return (
     <Div>
-      Contrary to popular belief, Lorem Ipsum is not simply random text.
-      It has roots in a piece of classical Latin literature from 45 BC,
-      making it over 2000 years old. Richard McClintock, a Latin professor
-      at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-      consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
-      classical literature, discovered the undoubtable source
+      Olá! Sou Cássio, um entusiasta da programação realizando meu sonho de me tornar
+      um desenvolvedor Fullstack após concluir um curso excepcional na DNC (Digital Nomad Camp).
+      Minha paixão pela programação é impulsionada pela curiosidade e pelo desejo de criar
+      soluções inovadoras que melhorem a vida das pessoas. Busco constantemente aprimorar
+      minhas habilidades técnicas e desenvolver uma mentalidade resiliente para enfrentar
+      desafios complexos. Estou ansioso para contribuir com projetos significativos e fazer
+      parte de uma comunidade apaixonada por tecnologia. Vamos construir um futuro digital incrível juntos!
     </Div>
   )
 }

@@ -20,3 +20,4 @@ export const BottomNavigationAction = styled(BottomNavigationActionMUI)`
   font-weight: bold;
 `;
 
+export const Section = styled.div``;
