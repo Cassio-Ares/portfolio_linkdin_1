@@ -15,19 +15,33 @@ export type StyleTypeCss = {
 
 }
 
+
 export const HomeMain = styled.main<StyleTypeCss>`
-  background: ${({theme, type }) => {
+  ${({theme, type})=>{
     switch (type) {
       case 'style 1':
-        return `url(${theme.BACKGROUND.CODE})no-repeat fixed;`;
+        return css`
+         background: url(${theme.BACKGROUND.CODE})no-repeat fixed;
+         color: ${theme.COLORS.PRIMARY};
+        `;
+
       case 'style 2':
-        return theme.BACKGROUND.COLORBG;
+         return css`
+         background: rgb(0,108,163);
+         background: radial-gradient(circle, rgba(0,108,163,1) 19%, rgba(1,172,198,1) 50%, rgba(0,72,140,1) 74%);
+         color: ${theme.COLORS.PRIMARY};
+         `;
+
       case 'style 3':
-        return theme.BACKGROUND.SPACE;;  
+        return css`
+          background: url(${theme.BACKGROUND.SPACE});
+        `;
+
       case 'style 4':
-        return 'red';    
-      default:
-        return 'white';  
+        return css`
+         background:#bdbdbd;
+         color: #000;
+        `;
     }
   }};
   background-size: cover;

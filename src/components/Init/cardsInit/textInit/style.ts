@@ -3,7 +3,6 @@ import styled from "styled-components"; //to do falta texto e ajuste final
 export const Div = styled.div`
   width: 40%;
   height: 64vh;
-  color: #000;
   display: flex;
   flex-direction: column;
   z-index: 1;

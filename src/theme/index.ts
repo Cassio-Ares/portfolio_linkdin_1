@@ -1,6 +1,6 @@
 export default {
     COLORS:{
-        PRIMARY: '#373A3C', //GREY
+        PRIMARY: '#eceff1', //GREY 
         SECUNDARY: '#818A91', // LIGTH GREY
         TERTIARY: '#43A9A3', // LIGTH BLUE
         
@@ -23,7 +23,6 @@ export default {
 
     BACKGROUND:{
         CODE: './imag/backCode.jpg',
-        COLORBG: '#FFFFFF',
-        SPACE: '/imag/space.svg'
+        SPACE: '/imag/nebulosa.jpg',
     }
 }

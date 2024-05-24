@@ -4,7 +4,6 @@ export const CardInfo = styled.div`
  backdrop-filter: blur(10px);
  width: 50%;
  height: 40vh;
- color: white;
  padding: 10px;
  margin-right: 20px;
  border-radius: 10px;
