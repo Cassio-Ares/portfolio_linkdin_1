@@ -6,7 +6,7 @@ import { ContainerCArd } from './style';
 
 export default function Projects({ data }: any) {
     return (
-        <>
+        <div id='projects'>
             {data && data.map((project: any) => (
                 < ContainerCArd key={project.id}>
                     <Card_Proj
@@ -22,6 +22,6 @@ export default function Projects({ data }: any) {
                     />
                 </ ContainerCArd>
             ))}
-        </>
+        </div>
     );
 };

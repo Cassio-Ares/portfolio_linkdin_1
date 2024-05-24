@@ -4,7 +4,7 @@ import * as S from './styled'
 
 export default function Contact() {
   return (
-    <S.CardContact>
+    <S.CardContact id='contato'>
       <a href=''><S.Email/></a>
       <a href='https://github.com/Cassio-Ares'><S.GitHub/></a>
       <a href='https://wa.me/+5551993103664'><S.Whats/></a>

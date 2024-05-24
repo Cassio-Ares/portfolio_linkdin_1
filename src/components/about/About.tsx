@@ -5,7 +5,7 @@ import { Div } from './style'
 
 export default function About() {
   return (
-    <Div>
+    <Div id='sobre'>
       Olá! Sou Cássio, um entusiasta da programação realizando meu sonho de me tornar
       um desenvolvedor Fullstack após concluir um curso excepcional na DNC .
       Minha paixão pela programação é impulsionada pela curiosidade e pelo desejo de criar

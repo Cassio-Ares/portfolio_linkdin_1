@@ -7,7 +7,7 @@ import { Card, ContainerGrid} from "./styled";
 
 export default function Skill(){
     return (
-        <ContainerGrid id="skill">
+        <ContainerGrid id="skills">
             <Card>
                 <FaJs style={{ fontSize: '80px' }} />
                 <p>JavaScript</p>
