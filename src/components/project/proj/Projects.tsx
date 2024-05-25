@@ -11,7 +11,7 @@ export default function Projects({ data }: any) {
                 < ContainerCArd key={project.id}>
                     <Card_Proj
                         img_url={project.imagem}
-                        alt_text={project.name} />
+                         />
 
                     <Card_inf
                         name={project.name}
