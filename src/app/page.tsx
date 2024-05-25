@@ -1,15 +1,23 @@
 'use client'
 
-import Home from "@/view/Home";
 import { ThemeProvider } from "styled-components";
 import theme from "@/theme";
 import {mockProj} from '../mock/mock_project'
+import dynamic from "next/dynamic";
+import Loading from "./loading";
+
+
+const DynamicComponent = dynamic(() => import('@/view/Home'), {
+  loading: () => <Loading />,
+  ssr: false 
+});
+
 
 
 export default function HomePage() {
   return (
     <ThemeProvider theme={theme}>
-      <Home  projects={mockProj}/>
+      <DynamicComponent projects={mockProj}/>
     </ThemeProvider>
   );
 }
