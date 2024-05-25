@@ -1,16 +1,20 @@
+
+
+
 export default {
     COLORS:{
-        PRIMARY: '#eceff1', //GREY 
-        SECUNDARY: '#818A91', // LIGTH GREY
-        TERTIARY: '#43A9A3', // LIGTH BLUE
-        
-        LIGHT: '#ECEEEF', //WHITE
-        DARK: '#000'   //BLACK
+        PRIMARY: '#eceff1', //ok
+        SECUNDARY: '#818A91', 
+        TERTIARY: '#43A9A3', 
+        LIGHT: '#ECEEEF', 
+        DARK: '#000'   
     },
 
     FONT_FAMILY:{
-
+       First_FONT: "'Poppins', sans-serif",
+       SECOND_FONT:"'Roboto', sans-serif",
     },
+
 
     FONT_SIZE:{
         XS: 12,

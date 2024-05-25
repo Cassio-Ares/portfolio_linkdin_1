@@ -23,6 +23,7 @@ export const HomeMain = styled.main<StyleTypeCss>`
         return css`
          background: url(${theme.BACKGROUND.CODE})no-repeat fixed;
          color: ${theme.COLORS.PRIMARY};
+         font-family: ${theme.FONT_FAMILY.First_FONT};
         `;
 
       case 'style 2':
@@ -30,17 +31,21 @@ export const HomeMain = styled.main<StyleTypeCss>`
          background: rgb(0,108,163);
          background: radial-gradient(circle, rgba(0,108,163,1) 19%, rgba(1,172,198,1) 50%, rgba(0,72,140,1) 74%);
          color: ${theme.COLORS.PRIMARY};
+         letter-spacing: 3px;
+         font-size: 20px;
          `;
 
       case 'style 3':
         return css`
           background: url(${theme.BACKGROUND.SPACE});
+          font-family: ${theme.FONT_FAMILY.SECOND_FONT};        
         `;
 
       case 'style 4':
         return css`
          background:#bdbdbd;
-         color: #000;
+         color: ${theme.COLORS.DARK};
+         font-family: ${theme.FONT_FAMILY.First_FONT};
         `;
     }
   }};

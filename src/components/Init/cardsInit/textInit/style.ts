@@ -5,6 +5,7 @@ export const Div = styled.div`
   height: 64vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   z-index: 1;
   position: absolute;
   left: 100px;
@@ -14,7 +15,6 @@ export const Div = styled.div`
 export const Title = styled.h2`
    margin-top: 50px;
    margin-bottom: 50px;
-   margin-left: 75px;
 `;
 
 export const P = styled.p`
@@ -22,4 +22,5 @@ export const P = styled.p`
   margin-top: 30px;
   text-align: justify;
   line-height: 30px;
+  font-weight: 700;
 `;
