@@ -38,7 +38,7 @@ export default function NavBar() {
         }}
       >
         <S.BottomNavigationAction
-          label="Init" data-target="init"
+          label="Inicio" data-target="init"
           sx={{ '& .MuiBottomNavigationAction-label': { fontSize: '1.2rem' } }} />
 
         <S.BottomNavigationAction
