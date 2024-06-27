@@ -147,15 +147,15 @@ export const mockProj = [
     link_do_site: "https://library-back-end.vercel.app/doc/",
   },
 
-  // {
-  //   id: 11,
-  //   name: "Api de uma Livraria",
-  //   technology: [],
-  //   description: "Api de uma livraria projetada com ",
-  //   imagem: "",
-  //   link_do_git: "",
-  //   link_do_site: "",
-  // },
+  {
+    id: 11,
+    name: "Projeto para praticar estilização e animações",
+    technology: ["React", "next", "CSS", "Sass", "Javascript"],
+    description: "Projeto criado para praticar css e sass e junto a isso criar um repositorio com varios recursor de estilização e animação. ",
+    imagem: "project_styled.svg",
+    link_do_git: "https://github.com/Cassio-Ares/project_to_practice.git",
+    link_do_site: "https://project-to-practice.vercel.app/",
+  },
 
   // {
   //   id: 12,
